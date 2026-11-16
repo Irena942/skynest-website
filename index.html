@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="SkyNest Co-Living Spaces offers comfortable accommodation, flexible short-term stays, custom packages and modern shared facilities.">
+
+    <title>SkyNest Co-Living Spaces</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <div class="logo">
+
+                    <a href="index.html">
+                        <img src="Images/SkyNest_Co-Living_Spaces_Logo__1_-removebg-preview.png" width="140px">
+                    </a>
+
+                </div>
+
+                <nav aria-label="Main navigation">
+
+                    <ul id="MenuItems">
+
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="Packages.html">Packages</a></li>
+
+                        <li><a href="Facilities.html">Facilities</a></li>
+
+                        <li><a href="About Us.html">About Us</a></li>
+
+                        <li><a href="Contact Us.html">Contact</a></li>
+
+                        <li><a href="Book Now.html">Book Now</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <button class="menu-button"
+                        onclick="menutoggle()"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        id="MenuButton">
+
+                    <img src="Images/menu.png" class="menu-icon" alt="">
+
+                </button>
+
+            </div>
+
+
+            <!---------------- HERO / BACKGROUND ---------------->
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">LIVE • WORK • CONNECT</p>
+
+                    <h1>
+                        A Place To Stay.
+                        <span>A Community To Belong.</span>
+                    </h1>
+
+                    <p class="hero-text">
+
+                        Welcome to SkyNest Co-Living Spaces.
+                        Discover comfortable accommodation,
+                        flexible stays and modern shared facilities
+                        designed to make your stay enjoyable.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#accommodation" class="btn">
+                            Explore Accommodation
+                        </a>
+
+                        <a href="#contact" class="outline-btn">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!---------------- ABOUT ---------------->
+
+    <div class="introduction" id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-2">
+
+                    <p class="eyebrow">WELCOME TO SKYNEST</p>
+
+                    <h2>
+                        More Than Just A Place To Stay
+                    </h2>
+
+                </div>
+
+                <div class="col-2">
+
+                    <p>
+
+                        SkyNest Co-Living Spaces provides
+                        comfortable and flexible accommodation
+                        for individuals, professionals and
+                        organisations.
+
+                        We aim to create a welcoming environment
+                        where residents can enjoy convenient
+                        accommodation, access shared facilities
+                        and connect with others.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!---------------- Packages ---------------->
+
+    <div class="categories" id="Packages">
+
+        <div class="container">
+
+            <p class="eyebrow center">
+                FIND YOUR COMFORTABLE SPACE
+            </p>
+
+            <h2 class="title">
+                Our Packages
+            </h2>
+
+            <p class="section-description">
+
+                Explore our accommodation options
+                designed around different needs.
+
+            </p>
+
+            <div class="row">
+
+             <!----------PREMIUM STAY---- -->
+
+            <div class="col-4">
+               <img src="Images/Private appartmant1.jpg.jpg">
+
+         <h3>Premium Stay</h3>
+
+       <p>
+        Our premium accommodation option for clients
+        looking for a more exclusive stay experience.
+       </p>
+
+       <p class="price">$600 / month</p>
+
+       <div class="package-buttons">
+        <a href="#contact" class="btn">Enquire Now &#8594;</a>
+
+        <button type="button" class="btn facilities-toggle"
+                aria-expanded="false">
+            View Facilities &#8594;
+        </button>
+       </div>
+
+        <div class="facility-list">
+        <h4>Premium Stay Facilities</h4>
+        <ul>
+            <li>Private Studio apartment</li>
+            <li>Weekly cleaning services</li>
+            <li>Utilities included</li>
+            <li>High-speed internet</li>
+            <li>Access to all facilities</li>
+            <li>Monthly community events pass</li>
+        </ul>
+    </div>
+
+  </div>
+  
+<!----------------Standard Stay------------->
+<div class="col-4">
+
+    <img src="Images/Private bedroom2.jpg.jpg">
+
+    <h3>Standard Stay</h3>
+
+    <p>
+       A standard accommodation option
+       designed to provide a comfortable
+      place to stay. 
+    </p>
+
+    <p class="price">$500 / month</p>
+
+    <div class="package-buttons">
+        <a href="#contact" class="btn">Enquire Now &#8594;</a>
+
+        <button type="button" class="btn facilities-toggle"
+                aria-expanded="false">
+            View Facilities &#8594;
+        </button>
+    </div>
+
+    <div class="facility-list">
+        <h4>Standard Stay Facilities</h4>
+        <ul>
+            <li>Private bedroom in shared apartment</li>
+            <li>Fortnightly cleaning</li>
+            <li>Utilities included</li>
+            <li>Access to co-working space</li>
+            <li>Shared Kitchen</li>
+        </ul>
+    </div>
+
+</div>
+
+<!----------- Short-Term Stay-------->
+<div class="col-4">
+
+    <img src="Images/Room5.jpg.jpg">
+
+    <h3>Short-T Stay</h3>
+
+    <p>
+        Flexible accommodation for
+        short-term bookings of 1–4 weeks,
+        with a furnished room and utilities included.
+    </p>
+
+    <p class="price">$ 150 / night</p>
+
+    <div class="package-buttons">
+        <a href="#contact" class="btn">Enquire Now &#8594;</a>
+
+        <button type="button" class="btn facilities-toggle"
+                aria-expanded="false">
+            View Facilities &#8594;
+        </button>
+    </div>
+
+    <div class="facility-list">
+        <h4>Short-Term Facilitire</h4>
+        <ul>
+            <li>Flexible Booking (1-4 weeks)</li>
+            <li>Furnished room </li>
+            <li>Utilities included</li>
+            <li>Limited access to shared facilities</li>
+        </ul>
+     </div>
+
+    </div>
+               
+    </div>
+
+    </div>
+
+    </div>
+
+        
+    <!---------------- CUSTOMER PACKAGE ---------------->
+
+    <div class="packages" id="custom-package">
+
+        <div class="container">
+
+
+            <div class="package-row">
+
+
+                <div class="package-content">
+
+
+                    <h3>Customer Package</h3>
+
+                    <p class="package-intro">
+                        Custom packages are available for clients
+                        with specific accommodation requirements.
+                    </p>
+
+                    <ul class="package-list">
+
+                        <li>
+                            <i class="fa fa-check-circle"></i>
+                            Available for corporate bookings
+                        </li>
+
+                        <li>
+                            <i class="fa fa-check-circle"></i>
+                            Available for long-term stays
+                        </li>
+
+                        <li>
+                            <i class="fa fa-check-circle"></i>
+                            Available for residents with accessibility needs
+                        </li>
+
+                    </ul>
+
+                    <p class="package-note">
+                        Clients must contact the company to arrange
+                        custom packages and discuss their
+                        accessibility requirements.
+                    </p>
+
+                    <a href="#contact" class="btn">
+                        Contact Us About Custom Packages →
+                    </a>
+
+                </div>
+
+
+                <div class="package-image">
+
+                    <img src="Images/witoworks-holiday.jpg.jpg">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!---------------- FACILITIES ---------------->
+
+    <div class="facilities" id="facilities">
+
+        <div class="container">
+
+            <p class="eyebrow center">
+                COMFORT AND CONVENIENCE
+            </p>
+
+            <h2 class="title">
+                Our Facilities
+            </h2>
+
+            <p class="section-description">
+
+                Enjoy convenient facilities designed
+                to support your everyday needs.
+
+            </p>
+
+            <div class="row">
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-wifi" aria-hidden="true"></i>
+
+                    <h3>High-Speed Wi-Fi</h3>
+
+                    <p>
+                        Internet access throughout
+                        the building.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+
+                    <h3>Co-working Spaces</h3>
+
+                    <p>
+                        Shared working areas for
+                        professionals and students.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+
+                    <h3>Communal Kitchens</h3>
+
+                    <p>
+                        Shared kitchen and dining
+                        areas for residents.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+
+                    <h3>Laundry Rooms</h3>
+
+                    <p>
+                        Convenient laundry facilities
+                        within the building.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
+
+                    <h3>Gym and Yoga Studio</h3>
+
+                    <p>
+                        Spaces dedicated to fitness
+                        and personal wellbeing.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-leaf" aria-hidden="true"></i>
+
+                    <h3>Rooftop Garden</h3>
+
+                    <p>
+                        An outdoor space for relaxation
+                        and social interaction.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-users" aria-hidden="true"></i>
+
+                    <h3>Social Lounge</h3>
+
+                    <p>
+                        A shared space for residents
+                        to relax and connect.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-book" aria-hidden="true"></i>
+
+                    <h3>Study Pods</h3>
+
+                    <p>
+                        Dedicated spaces for
+                        studying and concentration.
+                    </p>
+
+                </div>
+
+
+                <div class="col-4 facility-card">
+
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                    <h3>Community Events</h3>
+
+                    <p>
+                        Weekly activities that
+                        encourage community connections.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!----------------  OFFER ---------------->
+
+    <div class="offer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-2">
+
+                    <img src="Images/02-Lobby.jpg">
+
+                </div>
+
+
+                <div class="col-2">
+
+                    <p class="eyebrow">
+                        NEED HELP CHOOSING?
+                    </p>
+
+                    <h2>
+                        Find The Right Package For Your Needs
+                    </h2>
+
+                    <p>
+
+                        Not sure which accommodation option
+                        is suitable for you?
+
+                        Contact our team for general help,
+                        advice and further information about
+                        our accommodation and custom packages.
+
+                    </p>
+
+                    <a href="#contact" class="btn">
+                        Get Advice From Our Team →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!---------------- WHY CHOOSE US ---------------->
+
+    <div class="testimonial">
+
+        <div class="container">
+
+            <p class="eyebrow center">
+                THE SKYNEST EXPERIENCE
+            </p>
+
+            <h2 class="title">
+                Why Choose SkyNest?
+            </h2>
+
+            <div class="row">
+
+                <div class="col-3">
+
+                    <i class="fa fa-home" aria-hidden="true"></i>
+
+                    <h3>Comfortable Accommodation</h3>
+
+                    <p>
+                        Enjoy furnished accommodation
+                        and convenient living spaces.
+                    </p>
+
+                </div>
+
+
+                <div class="col-3">
+
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                    <h3>Flexible Arrangements</h3>
+
+                    <p>
+                        Explore short-term stays and
+                        custom accommodation packages.
+                    </p>
+
+                </div>
+
+
+                <div class="col-3">
+
+                    <i class="fa fa-users" aria-hidden="true"></i>
+
+                    <h3>Welcoming Community</h3>
+
+                    <p>
+                        Enjoy shared spaces and
+                        opportunities to connect with others.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!---------------- CONTACT ---------------->
+   <div class="contact" id="contact">
+
+    <div class="container">
+
+        <p class="eyebrow center">GET IN TOUCH</p>
+
+        <h2 class="title">Contact SkyNest</h2>
+
+        <p class="section-description">
+            Have questions about our accommodation?
+            Contact our team. We are happy to help.
+        </p>
+
+        <div class="row contact-details">
+
+            <div class="col-4 contact-card">
+                <i class="fa fa-envelope"></i>
+                <h3>Email Address</h3>
+                <p>
+                    <a href="mailto:info@skynest.com">
+                        info@skynest.com
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-4 contact-card">
+                <i class="fa fa-phone"></i>
+                <h3>Phone Number</h3>
+                <p>
+                    <a href="tel:+254700000000">
+                        +254 700 000 000
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-4 contact-card">
+                <i class="fa fa-map-marker"></i>
+                <h3>Our Location</h3>
+                <p>Nairobi, Kenya</p>
+            </div>
+
+            <div class="col-4 contact-card">
+                <i class="fa fa-clock-o"></i>
+                <h3>Business Hours</h3>
+                <p>Monday – Friday: 8 AM – 5 PM</p>
+                <p>Saturday: 9 AM – 1 PM</p>
+            </div>
+
+        </div>
+
+        <div class="contact-message">
+
+            <h3>Need More Information?</h3>
+
+            <p>
+                Contact our team for accommodation enquiries,
+                bookings and custom packages.
+            </p>
+
+            <button type="button" class="btn" id="showContactForm">
+                Send Us an Email →
+            </button>
+
+        </div>
+
+        <!-- CONTACT FORM STARTS HERE -->
+
+        <div class="contact-form-container" id="contactFormSection">
+
+            <h3>Send Us an Enquiry</h3>
+
+            <p>Complete the form below and tell us how we can help you.</p>
+
+            <form id="contactForm">
+
+                <input type="text" id="name"
+                       placeholder="Your full name" required>
+
+                <input type="email" id="email"
+                       placeholder="Your email address" required>
+
+                <textarea id="message"
+                          placeholder="Tell us what you need"
+                          rows="5" required></textarea>
+
+                <button type="submit" class="btn">
+                    Submit Enquiry
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+    <!---------------- FOOTER ---------------->
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="footer-col-1">
+
+                    <img src="Images/logo.jpg.png" alt="">
+
+                    <p>
+
+                        Comfortable accommodation
+                        designed to help people
+                        live, work and connect.
+
+                    </p>
+
+                </div>
+
+
+                <div class="footer-col-2">
+
+                    <h3>Explore</h3>
+
+                    <ul>
+
+                        <li><a href="#home">Home</a></li>
+
+                        <li><a href="#accommodation">Accommodation</a></li>
+
+                        <li><a href="#packages">Packages</a></li>
+
+                        <li><a href="#facilities">Facilities</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col-3">
+
+                    <h3>Useful Links</h3>
+
+                    <ul>
+
+                        <li><a href="#about">About Us</a></li>
+
+                        <li><a href="#contact">Contact Us</a></li>
+
+                        <li><a href="#packages">Custom Packages</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col-4">
+
+                    <h3>Follow Us</h3>
+
+                    <ul>
+
+                        <li>Facebook</li>
+
+                        <li>Instagram</li>
+
+                        <li>LinkedIn</li>
+
+                        <li>YouTube</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="copyright">
+
+                Copyright © 2026 SkyNest Co-Living Spaces.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!---------------- JAVASCRIPT FOR MENU ---------------->
+
+    <script>
+    // MOBILE MENU
+    var MenuItems = document.getElementById("MenuItems");
+    var MenuButton = document.getElementById("MenuButton");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight === "0px") {
+            MenuItems.style.maxHeight = "350px";
+            MenuButton.setAttribute("aria-expanded", "true");
+        } else {
+            MenuItems.style.maxHeight = "0px";
+            MenuButton.setAttribute("aria-expanded", "false");
+        }
+    }
+
+    // FACILITIES BUTTONS
+    document.querySelectorAll(".facilities-toggle").forEach(function(button) {
+
+        button.addEventListener("click", function() {
+
+            var card = button.closest(".col-4");
+
+            var facilities = card.querySelector(".facility-list");
+
+            facilities.classList.toggle("show");
+
+            var isOpen = facilities.classList.contains("show");
+
+            button.setAttribute("aria-expanded", isOpen);
+
+            button.innerHTML = isOpen
+                ? "Hide Facilities &#8593;"
+                : "View Facilities &#8594;";
+
+        });
+
+    });
+</script>
+
+</body>
+</html>
