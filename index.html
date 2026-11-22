@@ -56,6 +56,22 @@
                     </ul>
 
                 </nav>
+                <!-- WEBSITE SEARCH BAR -->
+
+          <form class="site-search" id="siteSearch">
+         <input
+          type="search"
+           id="searchInput"
+           placeholder="Search anything..."
+            aria-label="Search website"
+            required>
+
+         <button type="submit" aria-label="Search">
+          <i class="fa fa-search"></i>
+          </button>
+           </form>
+
+            <button class="menu-button" onclick="menutoggle()" id="MenuButton">
 
                 <button class="menu-button"
                         onclick="menutoggle()"
@@ -115,45 +131,64 @@
 
     <!---------------- ABOUT ---------------->
 
-    <div class="introduction" id="about">
+    
+<div class="introduction" id="about">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
+        <div class="row">
 
-                <div class="col-2">
+            <!-- LEFT SIDE: TEXT -->
+            <div class="col-2">
 
-                    <p class="eyebrow">WELCOME TO SKYNEST</p>
+                <p class="eyebrow">WELCOME TO SKYNEST</p>
 
-                    <h2>
-                        More Than Just A Place To Stay
-                    </h2>
+                <h2>
+                    More Than Just A Place To Stay
+                </h2>
 
-                </div>
+                <p>
+                    SkyNest Co-Living Spaces provides
+                    comfortable and flexible accommodation
+                    for individuals, professionals and
+                    organisations.
 
-                <div class="col-2">
+                    We aim to create a welcoming environment
+                    where residents can enjoy convenient
+                    accommodation, access shared facilities
+                    and connect with others.
+                </p>
+
+                <!-- VISION STATEMENT -->
+                <div class="vision">
+
+                    <h3>Our Vision</h3>
 
                     <p>
-
-                        SkyNest Co-Living Spaces provides
-                        comfortable and flexible accommodation
-                        for individuals, professionals and
-                        organisations.
-
-                        We aim to create a welcoming environment
-                        where residents can enjoy convenient
-                        accommodation, access shared facilities
-                        and connect with others.
-
+                        To become a leading co-living accommodation
+                        provider, creating welcoming, comfortable
+                        and inclusive living spaces where individuals,
+                        professionals and organisations can live,
+                        work, connect and build a strong community.
                     </p>
 
                 </div>
 
             </div>
 
+            <!-- RIGHT SIDE: IMAGE -->
+            <div class="col-2 introduction-image">
+
+                <img src="Images/pexels-kadiravsarr-27524867.jpg"
+                     alt="Modern and comfortable co-living accommodation">
+
+            </div>
+
         </div>
 
     </div>
+
+</div>
 
 
     <!---------------- Packages ---------------->
@@ -182,7 +217,7 @@
              <!----------PREMIUM STAY---- -->
 
             <div class="col-4">
-               <img src="Images/Private appartmant1.jpg.jpg">
+               <img src="Images/pexels-aksinfo7-31387265.jpg">
 
          <h3>Premium Stay</h3>
 
@@ -219,7 +254,7 @@
 <!----------------Standard Stay------------->
 <div class="col-4">
 
-    <img src="Images/Private bedroom2.jpg.jpg">
+    <img src="Images/pexels-liva-kitchens-and-interiors-2153927697-33721710.jpg">
 
     <h3>Standard Stay</h3>
 
@@ -256,7 +291,7 @@
 <!----------- Short-Term Stay-------->
 <div class="col-4">
 
-    <img src="Images/Room5.jpg.jpg">
+    <img src="Images/pexels-dada-_design-240566386-12289356.jpg">
 
     <h3>Short-T Stay</h3>
 
@@ -309,7 +344,7 @@
                 <div class="package-content">
 
 
-                    <h3>Customer Package</h3>
+                    <h3>Custom Package</h3>
 
                     <p class="package-intro">
                         Custom packages are available for clients
@@ -350,7 +385,7 @@
 
                 <div class="package-image">
 
-                    <img src="Images/witoworks-holiday.jpg.jpg">
+                    <img src="Images/pexels-essentia-media-2154502099-33529503.jpg">
 
                 </div>
 
@@ -391,7 +426,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <img src="Images/Wi-Fi.jpg.jpg">
 
                     <h3>High-Speed Wi-Fi</h3>
 
@@ -405,7 +440,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <img src="Images/pexels-kindelmedia-7688335.jpg">
 
                     <h3>Co-working Spaces</h3>
 
@@ -413,13 +448,14 @@
                         Shared working areas for
                         professionals and students.
                     </p>
+                    
 
                 </div>
 
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <img src="Images/pexels-artbovich-7546218.jpg">
 
                     <h3>Communal Kitchens</h3>
 
@@ -433,7 +469,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-tint" aria-hidden="true"></i>
+                    <img src="Images/laundry room.jpg.jpg">
 
                     <h3>Laundry Rooms</h3>
 
@@ -447,7 +483,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                    <img src="Images/pexels-jdgromov-4716816.jpg">
 
                     <h3>Gym and Yoga Studio</h3>
 
@@ -461,7 +497,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-leaf" aria-hidden="true"></i>
+                    <img src="Images/pexels-galina-kudryashova-787528856-20291127.jpg">
 
                     <h3>Rooftop Garden</h3>
 
@@ -475,7 +511,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <img src="Images/pexels-artbovich-7750107.jpg">
 
                     <h3>Social Lounge</h3>
 
@@ -489,7 +525,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <img src="Images/pexels-mike-van-schoonderwalt-1884800-5511131.jpg">
 
                     <h3>Study Pods</h3>
 
@@ -503,7 +539,7 @@
 
                 <div class="col-4 facility-card">
 
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <img src="Images/pexels-infoniqa-2914389-4441790.jpg">
 
                     <h3>Community Events</h3>
 
@@ -531,7 +567,7 @@
 
                 <div class="col-2">
 
-                    <img src="Images/02-Lobby.jpg">
+                    <img src="Images/pexels-alan-antony-279974862-18470963.jpg">
 
                 </div>
 
@@ -635,7 +671,8 @@
 
 
     <!---------------- CONTACT ---------------->
-   <div class="contact" id="contact">
+   
+<div class="contact" id="contact">
 
     <div class="container">
 
@@ -673,7 +710,7 @@
             <div class="col-4 contact-card">
                 <i class="fa fa-map-marker"></i>
                 <h3>Our Location</h3>
-                <p>Nairobi, Kenya</p>
+                <p>Singapore, Kenya</p>
             </div>
 
             <div class="col-4 contact-card">
@@ -734,6 +771,7 @@
     </div>
 
 </div>
+
 
 
     <!---------------- FOOTER ---------------->
@@ -870,6 +908,84 @@
         });
 
     });
+
+// CONTACT FORM BUTTON
+var showContactFormButton = document.getElementById("showContactForm");
+var contactFormSection = document.getElementById("contactFormSection");
+
+showContactFormButton.addEventListener("click", function() {
+
+    contactFormSection.classList.toggle("show");
+
+    var isOpen = contactFormSection.classList.contains("show");
+
+    showContactFormButton.setAttribute("aria-expanded", isOpen);
+
+    showContactFormButton.innerHTML = isOpen
+        ? "Hide Enquiry Form ↑"
+        : "Send Us an Email →";
+
+    if (isOpen) {
+        contactFormSection.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    }
+
+});
+// Add the website search JavaScript here
+document.getElementById("siteSearch").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var searchValue = document.getElementById("searchInput").value.trim().toLowerCase();
+
+    if (searchValue === "") return;
+
+    var searchableElements = document.querySelectorAll(
+        ".introduction, .col-4, .packages, .facilities, .offer, .testimonial, .contact"
+    );
+
+    var foundElement = null;
+
+    searchableElements.forEach(function(element) {
+        if (!foundElement && element.innerText.toLowerCase().includes(searchValue)) {
+            foundElement = element;
+        }
+    });
+
+    if (foundElement) {
+        foundElement.scrollIntoView({behavior: "smooth", block: "center"});
+        foundElement.classList.add("search-highlight");
+
+        setTimeout(function() {
+            foundElement.classList.remove("search-highlight");
+        }, 2500);
+    } else {
+        alert("Sorry, we could not find '" + searchValue + "' on this page.");
+    }
+});
+document.getElementById("siteSearch").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    var searchValue = document.getElementById("searchInput").value.trim().toLowerCase();
+
+    if (searchValue === "facilities") {
+        window.location.href = "#facilities";
+    }
+    else if (searchValue === "packages") {
+        window.location.href = "#packages";
+    }
+    else if (searchValue === "about us") {
+        window.location.href = "#about";
+    }
+    else if (searchValue === "contact") {
+        window.location.href = "#contact";
+    }
+    else {
+        alert("Sorry, we could not find that page.");
+    }
+});
+
 </script>
 
 </body>
